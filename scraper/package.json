@@ -1,0 +1,15 @@
+{
+  "name": "superoferta-scraper-santaisabel",
+  "version": "1.0.0",
+  "description": "Scraper de precios Santa Isabel para SuperOferta",
+  "type": "module",
+  "main": "scraper_santaisabel.js",
+  "scripts": {
+    "start": "node scraper_santaisabel.js",
+    "query": "node scraper_santaisabel.js --query",
+    "categoria": "node scraper_santaisabel.js --categoria"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
